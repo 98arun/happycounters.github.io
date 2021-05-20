@@ -1,6 +1,8 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
  } 
  .burger{
     display: none;
@@ -595,7 +597,7 @@ form textarea {
     }
 .right-nav{
     position: relative;
-    bottom: 426px;
+    bottom: 430px;
     left: 70%;
     }
 #search{
@@ -868,8 +870,8 @@ form textarea {
     font-size: 18px;}
 .right-nav {
     position: relative;
-    bottom: 428px;
-    left: 70%;
+    bottom: 435px;
+    left: 72%;
     font-size: 18px;
     }
 .right {
