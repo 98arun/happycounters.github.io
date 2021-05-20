@@ -396,13 +396,14 @@
 .contact{
     width: 100%;
     background-color:#e8dcdc;
+    height: 100vh;
     }
 .fish{
     background-color: #d2c6c6;
     border-radius: 50px;
     width: 50%;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 40px;
     }
 form{
     padding: 30px;
@@ -461,7 +462,7 @@ form select{
     width: 100%;
     background-color:#e8dcdc;
     text-align: center;
-    padding-top: 30px;
+    /* padding-top: 30px; */
     }
 .head{
     color: #d6c6c6;
@@ -559,9 +560,9 @@ form textarea {
     height: 500px; 
     width: 100%; 
     display: block;
-    transition: all 1s ease-out;
+    transition: all 1s ease-in-out;
     z-index: 9;
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     right: 0;

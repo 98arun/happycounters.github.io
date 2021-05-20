@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="shortcut icon" href="img/pp.jfif">
+
+    <title>ContactUs</title>
+</head>
+
+<body>
+   
+    <section id="ContactUs" class="contact">
+        <span class="heading"><i class="fas fa-bahai">CONTACT US</i></span>
+        <div class="fish">
+            <form class="cont" action="/action.php">
+                <label for="fname">First name :</label>
+                <input type="text" id="fname" name="fname" placeholder="First name"><br>
+                <label for="lname">Last name :</label>
+                <input type="text" id="lname" name="lname" placeholder="Last name"><br>
+                <label for="email"> Email :</label>
+                <input type="email" id="email" name="email" placeholder="Email" required><br>
+                <label for="phone">Phone no. :</label>
+                <input type="tel" id="phone" name="phone" placeholder="898-898-8898" required><br>
+                <label for="gender">Gender :</label>
+                <select id="gender" name="gender">
+                    <option value="Male">Male</option>
+                    <option value="Women">Women</option>
+                    <option value="Other">Other</option>
+                </select><br>
+                <label for="message">Write Us :</label>
+                <textarea name="message" placeholder="Comment Here" cols="50" rows="10"></textarea>
+                <br>
+                <input type="submit" class="btn1" value="Submit">
+                <input type="reset" class="btn1" value="Reset">
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>
